@@ -1,0 +1,19 @@
+{
+  "name": "contact-form-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "validator": "^13.9.0",
+    "vercel": "^41.6.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
